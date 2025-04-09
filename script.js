@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Aplica automaticamente o modo escuro
-document.body.classList.add('dark-mode');  // Sempre aplica o modo escuro
+document.body.classList.add('dark-mode');
 
 // Modal
 const projects = document.querySelectorAll('.card-projeto');
@@ -17,20 +17,20 @@ const modalTechnologies = document.getElementById('modal-technologies');
 // Informações dos projetos
 const projectDetails = [
     {
-        title: "Listagem de Cafés",
-        description: "Esta é uma aplicação simples, onde os utilizadores podem explorar uma coleção de produtos de café. A app exibe informações detalhadas sobre cada café, incluindo uma imagem, descrição, preço e se está disponível ou esgotado. O utilizador pode filtrar a lista de cafés para visualizar todos os produtos ou apenas os disponíveis. Cada café possui uma avaliação e o número de votos que recebeu, exibidos com um sistema de estrelas.",
+        title: "Coffee Listing",
+        description: "This is a simple app where users can explore a collection of coffee products. The app displays detailed information about each coffee, including an image, description, price, and whether it is available or out of stock. The user can filter the coffee list to view all products or only the available ones. Each coffee has a rating and the number of votes it has received, displayed with a star rating system.",
         tecnologias: ["HTML", "CSS", "JavaScript", "React"],
         link: "https://github.com/ricardo10alves/coffee-listing-app" // Link do GitHub
     },
     {
         title: "Todo List",
-        description: "Este é um projeto simples de uma lista de tarefas desenvolvido com React, Zustand e TypeScript. Permite aos utilizadores adicionar, excluir e marcar tarefas como concluídas, utilizando a biblioteca Zustand para um controlo fácil do estado.",
+        description: "This is a simple to-do list project developed with React, Zustand, and TypeScript. It allows users to add, delete, and mark tasks as completed, using the Zustand library for easy state management.",
         tecnologias: ["React", "TypeScript", "Zustand"],
         link: "https://github.com/ricardo10alves/todo-list" // Link do GitHub
     },
     {
-        title: "Meu Portfólio",
-        description: "Criação de um portfólio do zero.",
+        title: "Portfolio",
+        description: "Built a personal portfolio from scratch.",
         tecnologias: ["HTML", "CSS", "JavaScript"],
         link: "https://github.com/ricardo10alves/portfolio" // Link do GitHub
     }
@@ -44,7 +44,7 @@ projects.forEach((project, index) => {
         modalDescription.textContent = projectDetails[index].description;
 
         // Limpar as tecnologias antigas antes de adicionar as novas
-        modalTechnologies.innerHTML = '';  // Limpar lista de tecnologias
+        modalTechnologies.innerHTML = '';
 
         // Adicionar tecnologias à lista do modal
         projectDetails[index].tecnologias.forEach(tech => {
@@ -78,7 +78,7 @@ projects.forEach((project, index) => {
     });
 });
 
-// Fecha o modal se o usuário clicar fora do conteúdo
+// Fecha o modal se o utilizador clicar fora do conteúdo
 window.addEventListener('click', (e) => {
     if (e.target === modal) {
         modal.classList.remove('show');  // Esconde o modal
