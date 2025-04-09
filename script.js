@@ -23,16 +23,16 @@ const projectDetails = [
         link: "https://github.com/ricardo10alves/coffee-listing-app" // Link do GitHub
     },
     {
-        title: "Projeto 2",
-        description: "Descrição detalhada do Projeto 2",
-        tecnologias: ["PHP", "MySQL", "Bootstrap"],
-        link: "https://github.com/seu-usuario/projeto2" // Link do GitHub
+        title: "Todo List",
+        description: "Este é um projeto simples de uma lista de tarefas desenvolvido com React, Zustand e TypeScript. Permite aos utilizadores adicionar, excluir e marcar tarefas como concluídas, utilizando a biblioteca Zustand para um controlo fácil do estado.",
+        tecnologias: ["React", "TypeScript", "Zustand"],
+        link: "https://github.com/ricardo10alves/todo-list" // Link do GitHub
     },
     {
         title: "Meu Portfólio",
         description: "Criação de um portfólio do zero.",
         tecnologias: ["HTML", "CSS", "JavaScript"],
-        link: "https://github.com/seu-usuario/projeto3" // Link do GitHub
+        link: "https://github.com/ricardo10alves/portfolio" // Link do GitHub
     }
 ];
 
