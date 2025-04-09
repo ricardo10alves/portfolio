@@ -1,4 +1,4 @@
-# Portfolio Website
+# Portfolio
 
 This is a personal portfolio website showcasing my web development skills, projects, and technologies I have worked with. The website is designed with a clean and modern interface, featuring an interactive project modal, and a responsive design.
 
