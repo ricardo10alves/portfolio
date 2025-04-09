@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ricardo Alves | Portfolio</title>
+
+    <!-- Font Awesome e AOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Botão modo escuro -->
+    <button class="toggle-dark-mode">
+        <i class="fas fa-moon" id="theme-icon"></i>
+    </button>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#contato">Contactos</a>
+    </nav>
+
+    <!-- Secção Sobre -->
+    <section id="sobre" data-aos="fade-up">
+
+        <!-- Container para a foto e o texto -->
+        <div class="sobre-container">
+            <!-- Coluna da Esquerda (Foto e Profissão/Morada) -->
+            <div class="foto-e-info">
+                <img src="images/foto_minha.jpg" alt="Minha Foto" class="foto-perfil" />
+                <p class="profissao">Engenheiro Informático</p>
+                <p class="morada">Vila Nova de Gaia, Porto</p>
+                <!-- Botão para download do currículo -->
+                <a href="images/curriculo.pdf" download="Curriculo_Ricardo_Alves" class="social-box">
+                    <i class="fas fa-download"></i>
+                    Baixar Currículo
+                </a>
+            </div>
+
+            <!-- Coluna da Direita (Informações sobre a Educação) -->
+            <div class="educacao-info">
+                <h2>Educação</h2>
+                <p>Concluí a Licenciatura em Engenharia Informática pelo Instituto Superior Politécnico Gaya em 2025.
+                    Durante o meu curso, tive oportunidade de desenvolver projetos envolvendo tecnologias como HTML,
+                    CSS, JavaScript e React. Também aprofundei os meus conhecimentos em desenvolvimento backend, com
+                    ênfase em Node.js e PHP. Além disso trabalhei com base de dados (MySql, MongoDB) e desenvolvi
+                    algumas aplicações móveis usando Java e Dart. A minha formação também incluiu conceitos básicos de
+                    Inteligência Artificial.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Secção Projetos -->
+    <section id="projetos" data-aos="fade-up">
+        <h1>Projetos</h1>
+        <p>Aqui estão alguns dos meus trabalhos mais recentes.</p>
+
+        <div class="galeria-projetos">
+            <div class="card-projeto">
+                <img src="images/projeto1.png" alt="Projeto 1" />
+                <h3>Listagem de Cafés</h3>
+            </div>
+            <div class="card-projeto">
+                <img src="https://via.placeholder.com/300x200" alt="Projeto 2" />
+                <h3>Projeto 2</h3>
+            </div>
+            <div class="card-projeto">
+                <img src="images/portfolio.png" alt="Projeto 3" />
+                <h3>Meu Portfólio</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Secção Tecnologias -->
+    <section id="tecnologias" data-aos="fade-up">
+        <h1>Tecnologias</h1>
+
+        <div class="tecnologias-container">
+            <!-- Linguagens de Programação -->
+            <div class="tecnologias-item">
+                <h3>Linguagens de Programação</h3>
+                <ul>
+                    <li><i class="fab fa-js"></i> JavaScript</li>
+                    <li><i class="fab fa-java"></i> Java</li>
+                    <li><i class="fab fa-python"></i> Python</li>
+                    <li><i class="fab fa-php"></i> PHP</li>
+                    <li><i class="fab fa-js-square"></i> TypeScript</li>
+                    <li><i class="fas fa-database"></i> SQL</li>
+                </ul>
+            </div>
+
+            <!-- Frameworks e Bibliotecas -->
+            <div class="tecnologias-item">
+                <h3>Frameworks e Bibliotecas</h3>
+                <ul>
+                    <li><i class="fab fa-react"></i> React</li>
+                    <li><i class="fab fa-node"></i> Node.js</li>
+                    <li><i class="fab fa-angular"></i> Angular</li>
+                    <li><i class="fab fa-js-square"></i> Next.js</li>
+                    <li><i class="fab fa-js"></i> Zustand</li>
+                </ul>
+            </div>
+
+            <!-- Ferramentas e Outras Tecnologias -->
+            <div class="tecnologias-item">
+                <h3>Ferramentas e Outras Tecnologias</h3>
+                <ul>
+                    <li><i class="fab fa-html5"></i> HTML</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS</li>
+                    <li><i class="fas fa-database"></i> MySQL</li>
+                    <li><i class="fas fa-database"></i> MongoDB</li>
+                    <li><i class="fab fa-docker"></i> Docker</li>
+                    <li><i class="fab fa-github"></i> GitHub</li>
+                    <li><i class="fab fa-figma"></i> Figma</li>
+                </ul>
+            </div>
+
+            <!-- Metodologias -->
+            <div class="tecnologias-item">
+                <h3>Metodologias</h3>
+                <ul>
+                    <li><i class="fas fa-users"></i> Agile</li>
+                    <li><i class="fas fa-tasks"></i> Scrum</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Secção Contato -->
+    <section id="contato" data-aos="fade-up">
+        <h1>Contactos</h1>
+        <p>Entre em contacto comigo através das minhas redes:</p>
+
+        <div class="social-links">
+            <a href="https://github.com/ricardo10alves" target="_blank" class="social-box">
+                <i class="fab fa-github"></i>
+                <p>GitHub</p>
+            </a>
+            <a href="https://linkedin.com/in/ricardo10alves" target="_blank" class="social-box">
+                <i class="fab fa-linkedin"></i>
+                <p>LinkedIn</p>
+            </a>
+            <a href="alves02ricardo@gmail.com" class="social-box">
+                <i class="fas fa-envelope"></i>
+                <p>Email</p>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <h3>Tecnologias Utilizadas:</h3>
+            <ul id="modal-technologies"></ul> <!-- Lista para exibir as tecnologias -->
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
